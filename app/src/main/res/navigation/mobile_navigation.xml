@@ -12,14 +12,20 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.ercodesistant.guide_app.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_informasi"
+        android:name="com.ercodesistant.guide_app.ui.information.InformationFragment"
+        android:label="@string/title_information"
+        tools:layout="@layout/fragment_information" />
+
+    <fragment
+        android:id="@+id/navigation_work"
+        android:name="com.ercodesistant.guide_app.ui.work.WorkFragment"
+        android:label="@string/title_work"
+        tools:layout="@layout/fragment_work" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.ercodesistant.guide_app.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:name="com.ercodesistant.guide_app.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>

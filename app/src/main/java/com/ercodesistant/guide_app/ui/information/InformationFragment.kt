@@ -1,4 +1,4 @@
-package com.ercodesistant.guide_app.ui.notifications
+package com.ercodesistant.guide_app.ui.information
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.ercodesistant.guide_app.databinding.FragmentNotificationsBinding
+import com.ercodesistant.guide_app.databinding.FragmentInformationBinding
 
-class NotificationsFragment : Fragment() {
+class InformationFragment : Fragment() {
 
-    private var _binding: FragmentNotificationsBinding? = null
+    private var _binding: FragmentInformationBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,14 +22,14 @@ class NotificationsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val notificationsViewModel =
-            ViewModelProvider(this).get(NotificationsViewModel::class.java)
+        val informationViewModel =
+            ViewModelProvider(this).get(InformationViewModel::class.java)
 
-        _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
+        _binding = FragmentInformationBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textNotifications
-        notificationsViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.textInformation
+        informationViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root
