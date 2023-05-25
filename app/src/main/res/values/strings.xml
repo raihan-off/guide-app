@@ -4,4 +4,17 @@
     <string name="title_information">Informasi</string>
     <string name="title_work">Pekerjaan</string>
     <string name="title_profile">Profile</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="laporkan_masalah">Laporkan Masalah</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="email">Email</string>
+    <string name="email_example">example@gmail.com</string>
+    <string name="keahlian">Keahlian</string>
+    <string name="kelahiran">Kelahiran</string>
+    <string name="jenisKelamin">Jenis Kelamin</string>
+    <string name="telepon">Telepon</string>
+    <string name="alamat">Alamat</string>
 </resources>

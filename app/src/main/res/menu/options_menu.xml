@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_edit_profile"
+        android:title="@string/edit_profile"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/bantuan"
+        android:title="@string/bantuan"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/laporkan_masalah"
+        android:title="@string/laporkan_masalah"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/tentang_aplikasi"
+        app:showAsAction="never" />
+
+</menu>

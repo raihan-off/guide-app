@@ -12,6 +12,7 @@ import com.ercodesistant.guide_app.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+//    private lateinit var navController: NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,5 +32,13 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+//        val navHostFragment = supportFragmentManager.findFragmentById(R.id.navHostFragmentProfile) as NavHostFragment
+//        navController = navHostFragment.navController
     }
+
+
+//    override fun onSupportNavigateUp(): Boolean {
+//        return navController.navigateUp()
+//    }
 }
