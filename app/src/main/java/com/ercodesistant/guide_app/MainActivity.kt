@@ -3,7 +3,6 @@ package com.ercodesistant.guide_app
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
-import android.view.MenuInflater
 import android.view.MenuItem
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
@@ -35,9 +34,6 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-
-//        val navHostFragment = supportFragmentManager.findFragmentById(R.id.navHostFragmentProfile) as NavHostFragment
-//        navController = navHostFragment.navController
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -52,7 +48,23 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 return true
             }
-            // Tambahkan kasus lain sesuai kebutuhan
+
+            R.id.bantuan -> {
+                val intent = Intent(this, HelpActivity::class.java)
+                startActivity(intent)
+                return true
+            }
+            R.id.laporkan_masalah  -> {
+                val intent = Intent(this, ReportActivity::class.java)
+                startActivity(intent)
+                return true
+            }
+            R.id.menu_about -> {
+                val intent = Intent(this, AboutActivity::class.java)
+                startActivity(intent)
+                return true
+            }
+            // Tambahkan option menu sesuai kebutuhan
             else -> return super.onOptionsItemSelected(item)
         }
     }

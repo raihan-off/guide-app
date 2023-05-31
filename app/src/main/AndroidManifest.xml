@@ -27,6 +27,13 @@
         </activity>
         <activity android:name=".EditProfileActivity"
             android:label="Edit Profile"/>
+        <activity android:name=".HelpActivity"
+            android:label="Bantuan"/>
+        <activity android:name=".ReportActivity"
+            android:label="Laporkan Masalah"/>
+        <activity android:name=".AboutActivity"
+            android:label="About"/>
+
     </application>
 
 </manifest>
