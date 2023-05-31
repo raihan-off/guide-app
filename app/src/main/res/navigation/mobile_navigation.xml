@@ -5,11 +5,25 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/navigation_home">
 
+<!--    Bottom Nav-->
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.ercodesistant.guide_app.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_edit_profile"
+            app:destination="@id/navigation_edit_profile" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_bantuan"
+            app:destination="@id/navigation_bantuan" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_report"
+            app:destination="@id/navigation_report" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_about"
+            app:destination="@id/navigation_about" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_informasi"
@@ -28,4 +42,29 @@
         android:name="com.ercodesistant.guide_app.ui.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
+
+<!--    Bottom Selected Item-->
+    <fragment
+        android:id="@+id/navigation_edit_profile"
+        android:name="com.ercodesistant.guide_app.ui.EditProfileFragment"
+        android:label="@string/edit_profile"
+        tools:layout="@layout/fragment_edit_profile"/>
+
+    <fragment
+        android:id="@+id/navigation_bantuan"
+        android:name="com.ercodesistant.guide_app.ui.HelpFragment"
+        android:label="@string/bantuan"
+        tools:layout="@layout/fragment_help"/>
+
+    <fragment
+        android:id="@+id/navigation_report"
+        android:name="com.ercodesistant.guide_app.ui.ReportFragment"
+        android:label="@string/laporkan_masalah"
+        tools:layout="@layout/fragment_report"/>
+
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="com.ercodesistant.guide_app.ui.HelpFragment"
+        android:label="@string/tentang_aplikasi"
+        tools:layout="@layout/fragment_about"/>
 </navigation>
