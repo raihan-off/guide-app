@@ -11,6 +11,10 @@
         android:title="@string/bantuan"
         app:showAsAction="never"/>
     <item
+        android:id="@+id/suggestion"
+        android:title="@string/saran"
+        app:showAsAction="never"/>
+    <item
         android:id="@+id/laporkan_masalah"
         android:title="@string/laporkan_masalah"
         app:showAsAction="never"/>

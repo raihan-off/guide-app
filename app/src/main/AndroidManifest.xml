@@ -29,6 +29,8 @@
             android:label="Edit Profile"/>
         <activity android:name=".HelpActivity"
             android:label="Bantuan"/>
+        <activity android:name=".SuggestionActivity"
+            android:label="Kritik dan saran"/>
         <activity android:name=".ReportActivity"
             android:label="Laporkan Masalah"/>
         <activity android:name=".AboutActivity"

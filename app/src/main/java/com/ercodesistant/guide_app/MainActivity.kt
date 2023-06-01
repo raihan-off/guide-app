@@ -54,6 +54,11 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 return true
             }
+            R.id.suggestion -> {
+                val intent = Intent(this, SuggestionActivity::class.java)
+                startActivity(intent)
+                return true
+            }
             R.id.laporkan_masalah  -> {
                 val intent = Intent(this, ReportActivity::class.java)
                 startActivity(intent)
