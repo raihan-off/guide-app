@@ -25,4 +25,7 @@
     <string name="deskripsi">Deskripsi</string>
     <string name="saran">Kritik dan Saran</string>
     <string name="intro_saran">Segala masukkan akan segera diterima dan dibaca untuk menjadi evaluasi website kami !</string>
+    <string name="kategori">Kategori</string>
+    <string name="berita_informasi2">AI sudah mendominasi teknologi</string>
+    <string name="berita_informasi1">Berikut website terbaru yang banyak dikunjungi akhir-akhir ini</string>
 </resources>
