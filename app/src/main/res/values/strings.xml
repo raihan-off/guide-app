@@ -18,9 +18,11 @@
     <string name="telepon">Telepon</string>
     <string name="alamat">Alamat</string>
     <string name="judul_help">Apa Ya Beb Judul ?</string>
+    <string name="desc_saran">Segala masukkan akan segera diterima dan dibaca untuk menjadi evaluasi website kami !</string>
     <string name="desc_help">Ini tu isinya deskripsi nah aku bingung mau nulis apa, aku pengen dia agak panjang dikitlah buat tampil di layoutnya, oh iya nih ada bingung kalo di figma kan list nah apa ini jga mau dibuat list atau just kayak pencarian doang </string>
     <string name="info_help">Jika masih ada pertanyaan yang tidak terjawab, anda dapat mengajukan pertanyaan kepada kami melalui email yang telah kami sediakan, cari sendiri!</string>
     <string name="desc_guidein">Guide.in adalah sebuah aplikasi berbasis website opensource yang bebas diakses oleh siapapun tanpa perlu membayar sepeserpun. Disini kalian akan menemukan banyak inspirasi, hal hal menarik dan tentunya bermanfaat dalam dunia teknologi</string>
     <string name="deskripsi">Deskripsi</string>
     <string name="saran">Kritik dan Saran</string>
+    <string name="intro_saran">Segala masukkan akan segera diterima dan dibaca untuk menjadi evaluasi website kami !</string>
 </resources>
