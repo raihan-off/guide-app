@@ -19,7 +19,7 @@
         <!-- Elemen-elemen di dalam LinearLayout -->
 
         <ImageView
-            android:id="@+id/welcome_image"
+            android:id="@+id/welcomeImage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="20dp"
@@ -71,7 +71,7 @@
         <TableRow
             android:layout_margin="20dp">
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/imagePemrograman"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -79,7 +79,7 @@
                 android:layout_gravity="center" />
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/imageDesain"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -87,7 +87,7 @@
                 android:layout_gravity="center" />
 
             <ImageView
-                android:id="@+id/imageView8"
+                android:id="@+id/imageFotografi"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -97,7 +97,7 @@
         <TableRow
             android:layout_margin="20dp">
             <ImageView
-                android:id="@+id/imageView9"
+                android:id="@+id/imagePemasaran"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -105,7 +105,7 @@
                 android:layout_gravity="center"/>
 
             <ImageView
-                android:id="@+id/imageView10"
+                android:id="@+id/imageVideo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -113,7 +113,7 @@
                 android:layout_gravity="center"/>
 
             <ImageView
-                android:id="@+id/imageView11"
+                android:id="@+id/imageCopywriter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

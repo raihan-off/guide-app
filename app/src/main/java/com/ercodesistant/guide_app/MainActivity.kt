@@ -11,8 +11,9 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.ercodesistant.guide_app.databinding.ActivityMainBinding
+import com.ercodesistant.guide_app.databinding.FragmentCodingcateBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity()  {
 
     private lateinit var binding: ActivityMainBinding
 
