@@ -30,4 +30,5 @@
     <string name="berita_informasi1">Berikut website terbaru yang banyak dikunjungi akhir-akhir ini</string>
     <string name="berita">Berita</string>
     <string name="jelajahi">Jelajahi</string>
+    <string name="koneksi_error">Permasalahan pada Jaringan</string>
 </resources>
