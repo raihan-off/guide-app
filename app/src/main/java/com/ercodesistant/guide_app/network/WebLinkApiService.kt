@@ -7,7 +7,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.http.GET
 
-private const val BASE_URL = "https://backend-guide-in.000webhostapp.com/" + "weblink"
+private const val BASE_URL = "https://raw.githubusercontent.com/" + "raihan-off/backend-guide-in/static-api/"
+
 
 private val moshi = Moshi.Builder()
     .add(KotlinJsonAdapterFactory())
@@ -19,7 +20,7 @@ private val retrofit = Retrofit.Builder()
     .build()
 
 interface WebLinkApiService {
-    @GET("static-api.json")
+    @GET("weblink.json")
     suspend fun getWebLink() : List<WebLink>
 }
 
