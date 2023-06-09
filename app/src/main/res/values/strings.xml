@@ -30,5 +30,17 @@
     <string name="berita_informasi1">Berikut website terbaru yang banyak dikunjungi akhir-akhir ini</string>
     <string name="berita">Berita</string>
     <string name="jelajahi">Jelajahi</string>
-    <string name="koneksi_error">Permasalahan pada Jaringan</string>
+    <!--    //KONEKSI ERROR//-->
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="pria">Pria</string>
+    <string name="wanita">Wanita</string>
+    <string name="btn_edit">Edit</string>
+    <string name="intro_report">Laportkan masalah untuk memberikan letak kekurangan atau kesalahan pada website kami agar segera diperbaiki</string>
+    <string name="kategoriMasalah">Kategori Masalah</string>
+    <string name="koneksi_error">Koneksi bermasalah</string>
+    <string-array name="kategori_options">
+        <item>Kategori 1</item>
+        <item>Kategori 2</item>
+        <item>Kategori 3</item>
+    </string-array>
 </resources>

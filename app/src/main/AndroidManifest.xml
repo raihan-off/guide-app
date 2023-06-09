@@ -14,30 +14,37 @@
         android:theme="@style/Theme.Guideapp"
         tools:targetApi="31">
         <activity
+            android:name=".OnBoardingActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashScreenActivity"
             android:exported="true"
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name">
-        </activity>
-        <activity android:name=".EditProfileActivity"
-            android:label="Edit Profile"/>
-        <activity android:name=".HelpActivity"
-            android:label="Bantuan"/>
-        <activity android:name=".SuggestionActivity"
-            android:label="Kritik dan saran"/>
-        <activity android:name=".ReportActivity"
-            android:label="Laporkan Masalah"/>
-        <activity android:name=".AboutActivity"
-            android:label="About"/>
-
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".EditProfileActivity"
+            android:label="Edit Profile" />
+        <activity
+            android:name=".HelpActivity"
+            android:label="Bantuan" />
+        <activity
+            android:name=".SuggestionActivity"
+            android:label="Kritik dan saran" />
+        <activity
+            android:name=".ReportActivity"
+            android:label="Laporkan Masalah" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="About" />
     </application>
 
 </manifest>

@@ -51,7 +51,125 @@
         app:layout_constraintTop_toBottomOf="@+id/name_text" />
 
 
+        <TextView
+            android:id="@+id/email_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:text="@string/email"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/profile_image"
+            app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+        <TextView
+            android:id="@+id/hasil_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Nadhila Mizaya Asriel"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/email_text"
+            app:layout_constraintTop_toBottomOf="@+id/email_text" />
+
+        <TextView
+            android:id="@+id/kelahiran_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="@string/kelahiran"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/email_text"
+            app:layout_constraintTop_toBottomOf="@+id/hasil_email" />
+
+        <TextView
+            android:id="@+id/hasil_kelahiran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:text="22 Januari 2003"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/kelahiran_text"
+            app:layout_constraintTop_toBottomOf="@+id/kelahiran_text" />
 
 
+        <TextView
+            android:id="@+id/jenisKelamin_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="@string/jenisKelamin"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/kelahiran_text"
+            app:layout_constraintTop_toBottomOf="@+id/hasil_kelahiran" />
+
+        <TextView
+            android:id="@+id/hasil_jenisKelamin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Wanita"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/jenisKelamin_text"
+            app:layout_constraintTop_toBottomOf="@+id/jenisKelamin_text" />
+
+        <TextView
+            android:id="@+id/telepon_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="@string/telepon"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/jenisKelamin_text"
+            app:layout_constraintTop_toBottomOf="@+id/hasil_jenisKelamin" />
+
+        <TextView
+            android:id="@+id/hasil_telepon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:text="08345678900"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/telepon_text"
+            app:layout_constraintTop_toBottomOf="@+id/telepon_text" />
+
+        <TextView
+            android:id="@+id/alamat_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="@string/alamat"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/telepon_text"
+            app:layout_constraintTop_toBottomOf="@+id/hasil_telepon" />
+
+        <TextView
+            android:id="@+id/hasil_alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Jl.Pulai Payung, Surabaya Permai, Bengkulu"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/alamat_text"
+            app:layout_constraintTop_toBottomOf="@+id/alamat_text" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

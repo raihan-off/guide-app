@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -13,6 +12,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <ImageView
             android:id="@+id/profile_image"
             android:layout_width="100dp"
@@ -75,7 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/email_example"
-                android:inputType="number" />
+                android:inputType="textEmailAddress" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -103,7 +103,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/kelahiran"
-                android:inputType="number" />
+                android:inputType="date" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -111,28 +111,37 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/jenisKelamin"
+            android:text="@string/jenis_kelamin"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.11"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/kelahiran_hint" />
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/jenisKelamin_hint"
-            android:layout_width="match_parent"
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/jenisKelamin_text">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/jenisKelamin_inp"
-                android:layout_width="match_parent"
+            <RadioButton
+                android:id="@+id/priaRadioButton"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="@string/jenisKelamin"
-                android:inputType="number" />
-        </com.google.android.material.textfield.TextInputLayout>
+                android:layout_weight="1"
+                android:text="@string/pria" />
+
+            <RadioButton
+                android:id="@+id/wanitaRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/wanita" />
+
+        </RadioGroup>
 
         <TextView
             android:id="@+id/telepon_text"
@@ -143,7 +152,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.11"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/jenisKelamin_hint" />
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/telepon_hint"
@@ -187,8 +196,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/alamat"
-                android:inputType="number" />
+                android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:text="@string/btn_edit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/alamat_hint" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

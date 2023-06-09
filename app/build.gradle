@@ -7,6 +7,7 @@ android {
     namespace 'com.ercodesistant.guide_app'
     compileSdk 33
 
+
     defaultConfig {
         applicationId "com.ercodesistant.guide_app"
         minSdk 29
