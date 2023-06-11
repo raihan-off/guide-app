@@ -5,6 +5,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.ercodesistant.guide_app.databinding.ListWeblinkBinding
 import com.ercodesistant.guide_app.model.WebLink
+import android.content.Intent
+import android.net.Uri
+import androidx.core.content.ContextCompat.startActivity
+
 
 class CodingCateAdapter: RecyclerView.Adapter<CodingCateAdapter.ViewHolder>() {
 
@@ -22,9 +26,17 @@ class CodingCateAdapter: RecyclerView.Adapter<CodingCateAdapter.ViewHolder>() {
         fun bind(webLink: WebLink) = with(binding){
             namaTextView.text = webLink.nama_website
 
-//            root.setOnclickListener {
-//
-//            }
+            root.setOnClickListener {
+
+                val linkWebsite = webLink.link_website
+                val uri = Uri.parse(linkWebsite)
+                val intent = Intent(Intent.ACTION_VIEW, uri)
+
+                    root.context.startActivity(intent)
+
+                //val websiteLink = root.context.getString(webLink.link_website)
+                //WebView.loadUrl(websiteLink)
+            }
         }
     }
 
