@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "591308218733",
+    "project_id": "guide-app-429b2",
+    "storage_bucket": "guide-app-429b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591308218733:android:b57fa5f5fcbdc41134ba64",
+        "android_client_info": {
+          "package_name": "com.ercodesistant.guide_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591308218733-sqfmpk36nau6rj78hqraca31kkg2ibk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVYeJsho0bIYYskVOfClYwL_fvQ9KFuks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591308218733-sqfmpk36nau6rj78hqraca31kkg2ibk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
