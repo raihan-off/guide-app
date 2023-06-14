@@ -1,4 +1,4 @@
-package com.ercodesistant.guide_app.ui.information.subCategory
+package com.ercodesistant.guide_app.ui.information.subVideoCategory
 
 import android.util.Log
 import androidx.lifecycle.LiveData
@@ -10,7 +10,7 @@ import com.ercodesistant.guide_app.network.WebLinkApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-class CodingCateViewModel: ViewModel() {
+class VideoCateViewModel: ViewModel() {
 
     private val data = MutableLiveData<List<WebLink>>()
     private val status = MutableLiveData<WebLinkApi.ApiStatus>()

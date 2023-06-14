@@ -1,5 +1,6 @@
 package com.ercodesistant.guide_app.ui.information
 
+import android.media.Image
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -14,7 +15,12 @@ import com.ercodesistant.guide_app.databinding.FragmentInformationBinding
 class InformationFragment : Fragment() {
 
     private var _binding: FragmentInformationBinding? = null
-    private lateinit var welcomeImage: ImageView
+    private lateinit var codeImage: ImageView
+    private lateinit var designImage: ImageView
+    private lateinit var aiImage: ImageView
+    private lateinit var photoImage: ImageView
+    private lateinit var videoImage: ImageView
+    private lateinit var OtherImage: ImageView
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -42,11 +48,44 @@ class InformationFragment : Fragment() {
 //            fr.commit()
 //        }
 
-        welcomeImage = root.findViewById(R.id.imagePemrograman)
+        codeImage = root.findViewById(R.id.imagePemrograman)
 
-        welcomeImage.setOnClickListener {
+        codeImage.setOnClickListener {
             Navigation.findNavController(root).navigate(R.id.action_navigation_informasi_to_navigation_codesub)
         }
+
+        designImage = root.findViewById(R.id.imageDesain)
+
+        designImage.setOnClickListener {
+            Navigation.findNavController(root).navigate(R.id.action_navigation_informasi_to_navigation_designsub)
+        }
+
+        aiImage = root.findViewById(R.id.imageai)
+
+        aiImage.setOnClickListener {
+            Navigation.findNavController(root).navigate(R.id.action_navigation_informasi_to_navigation_designsub)
+        }
+
+        photoImage = root.findViewById(R.id.imageFotografi)
+
+        photoImage.setOnClickListener {
+            Navigation.findNavController(root).navigate(R.id.action_navigation_informasi_to_navigation_designsub)
+        }
+
+        videoImage = root.findViewById(R.id.imageVideo)
+
+        videoImage.setOnClickListener {
+            Navigation.findNavController(root).navigate(R.id.action_navigation_informasi_to_navigation_designsub)
+        }
+
+        OtherImage = root.findViewById(R.id.imageOther)
+
+        OtherImage.setOnClickListener {
+            Navigation.findNavController(root).navigate(R.id.action_navigation_informasi_to_navigation_designsub)
+        }
+
+
+
 
         return root
     }

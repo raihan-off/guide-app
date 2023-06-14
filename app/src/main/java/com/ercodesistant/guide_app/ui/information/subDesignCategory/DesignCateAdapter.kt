@@ -1,5 +1,6 @@
-package com.ercodesistant.guide_app.ui.information.subCategory
+package com.ercodesistant.guide_app.ui.information.subDesignCategory
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -7,10 +8,9 @@ import com.ercodesistant.guide_app.databinding.ListWeblinkBinding
 import com.ercodesistant.guide_app.model.WebLink
 import android.content.Intent
 import android.net.Uri
-import androidx.core.content.ContextCompat.startActivity
 
 
-class CodingCateAdapter: RecyclerView.Adapter<CodingCateAdapter.ViewHolder>() {
+class DesignCateAdapter: RecyclerView.Adapter<DesignCateAdapter.ViewHolder>() {
 
     private val data = mutableListOf<WebLink>()
 
@@ -23,6 +23,7 @@ class CodingCateAdapter: RecyclerView.Adapter<CodingCateAdapter.ViewHolder>() {
     class ViewHolder(
         private val binding: ListWeblinkBinding
     ) : RecyclerView.ViewHolder(binding.root){
+        @SuppressLint("SuspiciousIndentation")
         fun bind(webLink: WebLink) = with(binding){
             namaTextView.text = webLink.nama_website
 

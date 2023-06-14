@@ -1,4 +1,4 @@
-package com.ercodesistant.guide_app.ui.information.subCategory
+package com.ercodesistant.guide_app.ui.information.subOtherCategory
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,19 +10,21 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
 import com.ercodesistant.guide_app.databinding.FragmentCodingcateBinding
 import com.ercodesistant.guide_app.network.WebLinkApi
+import com.ercodesistant.guide_app.ui.information.subAICategory.AICateAdapter
+import com.ercodesistant.guide_app.ui.information.subAICategory.AICateViewModel
 
-class CodingCateFragment: Fragment() {
+class OtherCateFragment: Fragment() {
 
 //    private var _binding: FragmentCodingcateBinding? = null
 //
 //    private val binding get() = _binding!!
 
-    private val viewModel: CodingCateViewModel by lazy {
-        ViewModelProvider(this)[CodingCateViewModel::class.java]
+    private val viewModel: AICateViewModel by lazy {
+        ViewModelProvider(this)[AICateViewModel::class.java]
     }
 
     private lateinit var binding: FragmentCodingcateBinding
-    private lateinit var myAdapter: CodingCateAdapter
+    private lateinit var myAdapter: AICateAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -37,7 +39,7 @@ class CodingCateFragment: Fragment() {
 //
 //        return root
         binding = FragmentCodingcateBinding.inflate(layoutInflater, container, false)
-        myAdapter = CodingCateAdapter()
+        myAdapter = AICateAdapter()
         with(binding.recyclerView) {
             addItemDecoration(
                 DividerItemDecoration(context,

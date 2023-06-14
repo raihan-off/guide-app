@@ -21,6 +21,21 @@
         <action
             android:id="@+id/action_navigation_informasi_to_navigation_codesub"
             app:destination="@id/navigation_codesub" />
+        <action
+            android:id="@+id/action_navigation_informasi_to_navigation_aisub"
+            app:destination="@id/navigation_aisub" />
+        <action
+            android:id="@+id/action_navigation_informasi_to_navigation_photosub"
+            app:destination="@id/navigation_photosub" />
+        <action
+            android:id="@+id/action_navigation_informasi_to_navigation_designsub"
+            app:destination="@id/navigation_designsub" />
+        <action
+            android:id="@+id/action_navigation_informasi_to_navigation_videosub"
+            app:destination="@id/navigation_videosub" />
+        <action
+            android:id="@+id/action_navigation_informasi_to_navigation_othersub"
+            app:destination="@id/navigation_othersub" />
     </fragment>
 
     <fragment
@@ -35,9 +50,40 @@
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
 
+<!--    Fragment information sub-->
     <fragment
         android:id="@+id/navigation_codesub"
-        android:name="com.ercodesistant.guide_app.ui.information.subCategory.CodingCateFragment"
+        android:name="com.ercodesistant.guide_app.ui.information.subAICategory.AICateFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_codingcate"/>
+
+    <fragment
+        android:id="@+id/navigation_designsub"
+        android:name="com.ercodesistant.guide_app.ui.information.subDesignCategory.CodingDesignFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_designcate"/>
+
+    <fragment
+        android:id="@+id/navigation_aisub"
+        android:name="com.ercodesistant.guide_app.ui.information.subAICategory.AICateFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_aicate"/>
+
+    <fragment
+        android:id="@+id/navigation_photosub"
+        android:name="com.ercodesistant.guide_app.ui.information.subPhotoCategory.PhotoCateFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_photocate"/>
+
+    <fragment
+        android:id="@+id/navigation_videosub"
+        android:name="com.ercodesistant.guide_app.ui.information.subVideoCategory.VideoCateFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_videocate"/>
+
+    <fragment
+        android:id="@+id/navigation_othersub"
+        android:name="com.ercodesistant.guide_app.ui.information.subOtherCategory.OtherCateFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_othercate"/>
 </navigation>

@@ -97,7 +97,7 @@
         <TableRow
             android:layout_margin="20dp">
             <ImageView
-                android:id="@+id/imagePemasaran"
+                android:id="@+id/imageai"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -113,7 +113,7 @@
                 android:layout_gravity="center"/>
 
             <ImageView
-                android:id="@+id/imageCopywriter"
+                android:id="@+id/imageOther"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
