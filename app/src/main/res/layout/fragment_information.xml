@@ -62,8 +62,6 @@
                 app:layout_constraintStart_toStartOf="@+id/welcomeImage"
                 app:layout_constraintTop_toBottomOf="@+id/judulIntroInfo"
                 app:layout_constraintVertical_bias="0.0" />
-
-
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
@@ -72,21 +70,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
+            android:textStyle="bold"
             android:text="@string/title_information" />
 
         <TextView
             android:id="@+id/berita1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_marginLeft="16dp"
             android:text="@string/berita_informasi1" />
 
         <TextView
             android:id="@+id/berita2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_marginLeft="16dp"
             android:text="@string/berita_informasi2" />
+
+        <TextView
+            android:id="@+id/berita3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/berita_informasi3" />
 
 
     </LinearLayout>
@@ -106,6 +112,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
+            android:textStyle="bold"
             android:text="@string/kategori"/>
 
         <!-- Elemen-elemen di dalam TableLayout -->

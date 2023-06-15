@@ -70,7 +70,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
-            android:text="Nadhila Mizaya Asriel"
+            android:text="Nama Lengkap"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="@+id/email_text"
             app:layout_constraintTop_toBottomOf="@+id/email_text" />
@@ -94,7 +94,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
-            android:text="22 Januari 2003"
+            android:text="1 Januari 2003"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="@+id/kelahiran_text"
             app:layout_constraintTop_toBottomOf="@+id/kelahiran_text" />
@@ -143,7 +143,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
-            android:text="08345678900"
+            android:text="08123456789"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="@+id/telepon_text"
             app:layout_constraintTop_toBottomOf="@+id/telepon_text" />
@@ -167,7 +167,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
-            android:text="Jl.Pulai Payung, Surabaya Permai, Bengkulu"
+            android:text="Jawa Indonesia"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="@+id/alamat_text"
             app:layout_constraintTop_toBottomOf="@+id/alamat_text" />

@@ -39,6 +39,8 @@
     <string name="kategoriMasalah">Kategori Masalah</string>
     <string name="koneksi_error">Koneksi bermasalah</string>
     <string name="masuk">Masuk menggunakan Google</string>
+    <string name="cariPekerjaan">Pekerjaan yang anda cari</string>
+    <string name="berita_informasi3">Flutter sedang naik daun</string>
     <string-array name="kategori_options">
         <item>Kategori 1</item>
         <item>Kategori 2</item>

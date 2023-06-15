@@ -6,8 +6,8 @@ import androidx.lifecycle.ViewModel
 
 class WorkViewModel : ViewModel() {
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "Work Feature are coming soon!"
-    }
-    val text: LiveData<String> = _text
+//    private val _text = MutableLiveData<String>().apply {
+//        value = "Work Feature are coming soon!"
+//    }
+//    val text: LiveData<String> = _text
 }
