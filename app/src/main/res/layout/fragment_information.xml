@@ -17,16 +17,55 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <!-- Elemen-elemen di dalam LinearLayout -->
-
-        <ImageView
-            android:id="@+id/welcomeImage"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="20dp"
-            android:src="@drawable/rectangle_welcome"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/welcomeImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/rectangle_welcome"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/judulIntroInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Guide.in"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/welcomeImage"
+                app:layout_constraintStart_toStartOf="@+id/welcomeImage"
+                app:layout_constraintTop_toTopOf="@+id/welcomeImage" />
+
+            <TextView
+                android:id="@+id/textIntroInfo"
+                android:layout_width="289dp"
+                android:layout_height="64dp"
+                android:layout_marginBottom="16dp"
+                android:text="Banyak beragam informasi yang tersedia dan kami akan membantu menemukan yang tepat untukmu"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/welcomeImage"
+                app:layout_constraintEnd_toEndOf="@+id/welcomeImage"
+                app:layout_constraintStart_toStartOf="@+id/welcomeImage"
+                app:layout_constraintTop_toBottomOf="@+id/judulIntroInfo"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
 
         <TextView
             android:id="@+id/informasi"
@@ -48,9 +87,11 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:text="@string/berita_informasi2" />
+
+
     </LinearLayout>
 
-<!--    Untuk Kategori-->
+    <!--    Untuk Kategori-->
     <TableLayout
         android:id="@+id/table_layout"
         android:layout_width="match_parent"
@@ -119,6 +160,9 @@
                 android:layout_weight="1"
                 android:src="@drawable/image_copywriter"
                 android:layout_gravity="center"/>
+
+
         </TableRow>
     </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -83,7 +83,7 @@
             android:background="@drawable/input_bg"
             android:ems="10"
             android:gravity="start|top"
-            android:hint="Tulis unek unek mu disini say"
+            android:hint="Tulis kritik dan saran"
             android:inputType="textMultiLine"
             android:padding="8dp"
             app:layout_constraintEnd_toEndOf="@+id/email_inp"

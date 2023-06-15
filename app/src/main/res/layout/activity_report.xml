@@ -18,7 +18,7 @@
             android:scaleType="centerCrop"
             android:src="@drawable/rectangle_report"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -42,7 +42,7 @@
             android:id="@+id/intro_report"
             android:layout_width="271dp"
             android:layout_height="80dp"
-            android:layout_marginBottom="68dp"
+            android:layout_marginBottom="60dp"
             android:text="@string/intro_report"
             android:textAlignment="center"
             android:textColor="@color/white"
@@ -121,7 +121,7 @@
             android:background="@drawable/input_bg"
             android:ems="10"
             android:gravity="start|top"
-            android:hint="Tulis unek unek mu disini say"
+            android:hint="Tulis deskripsi"
             android:inputType="textMultiLine"
             android:padding="8dp"
             app:layout_constraintEnd_toEndOf="@+id/email_inp"

@@ -50,7 +50,7 @@
             app:layout_constraintVertical_bias="0.629" />
 
         <TextView
-            android:id="@+id/judulDesc"
+            android:id="@+id/judulDescBantuan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -68,14 +68,14 @@
             android:id="@+id/desc_bantuan"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="28dp"
             android:text="@string/desc_help"
             android:textAlignment="center"
-            android:textSize="16sp"
             android:textColor="@color/black"
+            android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/judulDesc" />
+            app:layout_constraintTop_toBottomOf="@+id/judulDescBantuan" />
 
         <TextView
             android:layout_width="wrap_content"

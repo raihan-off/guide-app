@@ -3,4 +3,7 @@
     <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
         <item name="android:textColor">@color/black</item>
     </style>
+<!--    <style name="LogoHomeStyle" parent="Theme.AppCompat.Light">-->
+<!--        <item name="android:navigationIcon">@drawable/ic_home_black_24dp</item>-->
+<!--    </style>-->
 </resources>
